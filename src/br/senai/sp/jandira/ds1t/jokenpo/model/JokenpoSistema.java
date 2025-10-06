@@ -11,6 +11,7 @@ public class JokenpoSistema {
 
 
 
+
     public void coletarDados(){
         Scanner leitor = new Scanner(System.in);
 
@@ -95,5 +96,19 @@ public class JokenpoSistema {
 
     }
 
+    public void opçãoJogarNovamente(){
+        Scanner leitor = new Scanner(System.in);
+
+        String jogarNovamente;
+
+        System.out.println("Jogar novamente? S/N");
+        jogarNovamente= leitor.nextLine();
+
+        if (jogarNovamente.equals("S")){
+            coletarDados();
+        } else {
+            System.out.println("Obrigado por jogar");
+        }
+    }
 
 }
