@@ -94,6 +94,8 @@ public class JokenpoSistema {
 
         }
 
+        opçãoJogarNovamente();
+
     }
 
     public void opçãoJogarNovamente(){
